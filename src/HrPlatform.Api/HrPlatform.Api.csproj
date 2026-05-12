@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HrPlatform.Persistence\HrPlatform.Persistence.csproj" />
+    <ProjectReference Include="..\HrPlatform.Application\HrPlatform.Application.csproj" />
   </ItemGroup>
 
 </Project>

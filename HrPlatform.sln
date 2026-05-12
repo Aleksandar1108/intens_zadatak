@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrPlatform.Persistence", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrPlatform.Api", "src\HrPlatform.Api\HrPlatform.Api.csproj", "{01954D32-3D1B-4F35-872D-C45F94A54B19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrPlatform.Application", "src\HrPlatform.Application\HrPlatform.Application.csproj", "{93DE6E95-C52C-49F5-8C60-18FA11F774DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{01954D32-3D1B-4F35-872D-C45F94A54B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01954D32-3D1B-4F35-872D-C45F94A54B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01954D32-3D1B-4F35-872D-C45F94A54B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DE6E95-C52C-49F5-8C60-18FA11F774DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DE6E95-C52C-49F5-8C60-18FA11F774DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DE6E95-C52C-49F5-8C60-18FA11F774DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DE6E95-C52C-49F5-8C60-18FA11F774DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5E598BD-48A3-4686-B58A-FBD0F71E181F} = {FBBF8A5B-6DE2-423B-9571-DC2925D6951C}
 		{41ADBA24-B205-45D9-9C13-E82CE1007E25} = {FBBF8A5B-6DE2-423B-9571-DC2925D6951C}
 		{01954D32-3D1B-4F35-872D-C45F94A54B19} = {FBBF8A5B-6DE2-423B-9571-DC2925D6951C}
+		{93DE6E95-C52C-49F5-8C60-18FA11F774DE} = {FBBF8A5B-6DE2-423B-9571-DC2925D6951C}
 	EndGlobalSection
 EndGlobal
