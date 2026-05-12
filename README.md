@@ -1,0 +1,5 @@
+Ako bih morao da izdvojim jedan deo, to bi bila cela priča oko kandidata i veština — ne zato što je „teško“ u smislu egzotičnih algoritama, nego zato što tu mora sve da se slaže: model u bazi, pravila u servisu, REST uglovi i na kraju kako to korisnik shvata na ekranu.
+
+Najviše sam se zadržao na pretrazi. U specifikaciji piše „po imenu i/ili veštinama“, a kada ima više veština, nigde eksplicitno ne piše da li treba OR ili AND. Izabrao sam AND — kandidat mora da pokrije sve što si označio. Meni to liči na realan HR scenario (tražiš nekoga ko zna i jezik i konkretan stack), dok OR lako postane „širok“ rezultat gde gubiš smisao filtera. Na frontu sam to naglasio jednom rečenicom, da ne bi bilo nagađanja.
+
+Uz to, eksplicitna povezna tabela između kandidata i veština mi je bila važnija od „magije“ u ORM-u: jasno je gde se čuva veza, lakše je držati jedinstvenost para i kasnije proširivati ako zatreba nešto treće u toj vezi. Seed na startu sam dodao više zbog praktičnosti nego zbog šeme — da se odmah vidi grid i pretraga bez ručnog punjenja baze.
